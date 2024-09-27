@@ -26,7 +26,7 @@ function Footer() {
                 <h1 className='text-cyan-400 text-lg md:text-xl font-semibold'>Links</h1>
                 <NavLink to="/" className="text-white text-base md:text-lg font-normal hover:underline underline-offset-8">Home</NavLink>
                 <NavLink to="/blogs" className="text-white text-base md:text-lg font-normal hover:underline underline-offset-8">Blogs</NavLink>
-                <NavLink to="/teams" className="text-white text-base md:text-lg font-normal hover:underline underline-offset-8">Team</NavLink>
+                <NavLink to="/team" className="text-white text-base md:text-lg font-normal hover:underline underline-offset-8">Team</NavLink>
             </div>
             <div className='flex flex-col md:flex-row items-center gap-1 md:gap-12'>
                 <h1 className='text-cyan-400 text-lg md:text-xl font-semibold'>Contacts</h1>
