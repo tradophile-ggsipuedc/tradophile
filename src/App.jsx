@@ -7,21 +7,21 @@ import Events from './components/Events';
 import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Footer from './components/Footer'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
-
-    const router = createBrowserRouter([
-        {path: "/", element: <><Header/><Home/><Footer/> </> },
-        {path: "/about", element:<><Header/><About/><Footer/></> },
-        {path: "/team", element: <><Header/><Team/><Footer/> </>},
-        {path: "/events", element: <><Header/><Events/><Footer/> </> },
-        {path: "/blogs", element: <><Header/><Blogs/><Footer/> </> },
-        {path: "/contact", element: <><Header/><Contact/><Footer/> </> },
-    ])
   return (
     <>
-    <RouterProvider router = {router} />  
+      <Router>
+        <Routes>
+          <Route path="/" element={<><Header/><Home/><Footer/></>} />
+          <Route path="/about" element={<><Header/><About/><Footer/></>} />
+          <Route path="/team" element={<><Header/><Team/><Footer/></>} />
+          <Route path="/events" element={<><Header/><Events/><Footer/></>} />
+          <Route path="/blogs" element={<><Header/><Blogs/><Footer/></>} />
+          <Route path="/contact" element={<><Header/><Contact/><Footer/></>} />
+        </Routes>
+      </Router>  
     </>
   );
 }
