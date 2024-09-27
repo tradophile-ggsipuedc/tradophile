@@ -31,7 +31,7 @@ function Footer() {
             <div className='flex flex-col md:flex-row items-center gap-1 md:gap-12'>
                 <h1 className='text-cyan-400 text-lg md:text-xl font-semibold'>Contacts</h1>
                 <a href="https://www.instagram.com/tradophile.ggsipuedc/" target="_blank" rel="noopener noreferrer" className='text-white text-2xl md:text-4xl'><FaInstagram /></a>
-                <a href="https://www.instagram.com/tradophile.ggsipuedc/" target="_blank" rel="noopener noreferrer" className='text-white text-2xl md:text-4xl'><FaLinkedinIn /></a>
+                <a href="https://www.linkedin.com/company/tradophile-ggsipuedc/" target="_blank" rel="noopener noreferrer" className='text-white text-2xl md:text-4xl'><FaLinkedinIn /></a>
                 <a href="https://chat.whatsapp.com/FvzxzEkB8Y822xD8mktogM" target="_blank" rel="noopener noreferrer" className='text-white text-2xl md:text-4xl'><SiWhatsapp /></a>
             </div>
         </div>
