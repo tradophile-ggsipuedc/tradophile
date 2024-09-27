@@ -2,6 +2,7 @@ import React from 'react'
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { SiWhatsapp } from "react-icons/si";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 
 function Contact() {
@@ -28,6 +29,9 @@ function Contact() {
                     </a>
                     <a href="https://www.instagram.com/tradophile.ggsipuedc/" target="_blank" rel="noopener noreferrer" className='text-white text-2xl md:text-4xl'>
                         <FaLinkedinIn />
+                    </a>
+                    <a href="https://x.com/Tradophile_USAR" target="_blank" rel="noopener noreferrer" className='text-white text-2xl md:text-4xl'>
+                        <FaSquareXTwitter />
                     </a>
                 </div>
 
