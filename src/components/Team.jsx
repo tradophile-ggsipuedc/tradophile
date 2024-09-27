@@ -19,7 +19,7 @@ function Team() {
           photo: vanshsethi,
           social: {
             instagram: 'https://www.instagram.com/vansh6803?igsh=MWE3YjVjZmY4anBq',
-            linkedin: '',
+            linkedin: 'https://www.linkedin.com/in/vanshsethi23',
             x: 'https://x.com/VanshSethitwts',
           },
         },
