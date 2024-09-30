@@ -38,17 +38,17 @@ function Header() {
 
                 {/* WIDE SCREEN NAV toS */}
                 <div className='hidden md:flex md:space-x-12 mx-16 lg:text-xl md:text-lg text-white font-semibold px-5'>
-                    <NavLink to="/" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": " hover:underline underline-offset-8"}}>Home</NavLink>
+                    <NavLink to="/" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": " hover:underline underline-offset-8"}} onClick={() => window.scrollTo(0, 0)}>Home</NavLink>
 
-                    <NavLink to="/about" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": " hover:underline underline-offset-8"}}>About</NavLink>
+                    <NavLink to="/about" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": " hover:underline underline-offset-8"}} onClick={() => window.scrollTo(0, 0)}>About</NavLink>
 
-                    <NavLink to="/events" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": " hover:underline underline-offset-8"}}>Events</NavLink>
+                    <NavLink to="/events" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": " hover:underline underline-offset-8"}} onClick={() => window.scrollTo(0, 0)}>Events</NavLink>
 
-                    <NavLink to="/blogs" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": " hover:underline underline-offset-8"}}>Blogs</NavLink>
+                    <NavLink to="/blogs" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": " hover:underline underline-offset-8"}} onClick={() => window.scrollTo(0, 0)}>Blogs</NavLink>
 
-                    <NavLink to="/team" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": " hover:underline underline-offset-8"}}>Team</NavLink>
+                    <NavLink to="/team" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": " hover:underline underline-offset-8"}} onClick={() => window.scrollTo(0, 0)}>Team</NavLink>
 
-                    <NavLink to="/contact" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": " hover:underline underline-offset-8"}}>Contacts</NavLink>
+                    <NavLink to="/contact" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": " hover:underline underline-offset-8"}} onClick={() => window.scrollTo(0, 0)}>Contacts</NavLink>
 
                 </div>
                 {/* MOBILE SCREEN NAV LINKS */}
@@ -60,17 +60,17 @@ function Header() {
             {/* Mobile Menu Links */}
             <div className={`md:hidden bg-black text-white font-semibold text-center ${menuOpen ? 'block' : 'hidden'}`}>
                 <ul className="space-y-4 p-5 pt-0 w-full">
-                <li><NavLink to="/" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}} >Home</NavLink></li>
+                <li><NavLink to="/" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}}  onClick={() => {setMenuOpen(false); window.scrollTo(0, 0);}}>Home</NavLink></li>
 
-                <li><NavLink to="/about" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}}>About</NavLink></li>
+                <li><NavLink to="/about" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}} onClick={() => {setMenuOpen(false); window.scrollTo(0, 0);}}>About</NavLink></li>
 
-                <li><NavLink to="/events" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}}>Events</NavLink></li>
+                <li><NavLink to="/events" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}} onClick={() => {setMenuOpen(false); window.scrollTo(0, 0);}}>Events</NavLink></li>
 
-                <li><NavLink to="/blogs" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}}>Blogs</NavLink></li>
+                <li><NavLink to="/blogs" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}} onClick={() => {setMenuOpen(false); window.scrollTo(0, 0);}}>Blogs</NavLink></li>
 
-                <li><NavLink to="/team" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}}>Team</NavLink></li>
+                <li><NavLink to="/team" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}} onClick={() => {setMenuOpen(false); window.scrollTo(0, 0);}}>Team</NavLink></li>
 
-                <li><NavLink to="/contact" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}}>Contact</NavLink></li>
+                <li><NavLink to="/contact" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}} onClick={() => {setMenuOpen(false); window.scrollTo(0, 0);}}>Contact</NavLink></li>
                 </ul>
             </div>
         </nav>
