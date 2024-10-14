@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom';
 import tradophilelogo from '../assets/logos/tradophilelogo.jpg'
 import { LuMenuSquare } from "react-icons/lu";
+import { FaRegWindowClose } from "react-icons/fa";
 
 function Header() {
     const [scrolled, setScrolled] = useState(false);
@@ -53,7 +54,15 @@ function Header() {
                 </div>
                 {/* MOBILE SCREEN NAV LINKS */}
                 <div className="md:hidden flex items-center mx-6">
-                    <button onClick={toggleMenu} className='text-white text-3xl'><LuMenuSquare/> </button>
+                    <button onClick={toggleMenu} className='text-white text-3xl'>
+                    {menuOpen ? (
+                          // Show "X" icon when the menu is open
+                          <FaRegWindowClose />
+                      ) : (
+                          // Show hamburger icon when the menu is closed
+                          <LuMenuSquare />
+                      )}
+                    </button>
                 </div>              
             </div>
 

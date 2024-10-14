@@ -42,25 +42,42 @@ function About() {
          <hr className='border-t-2 border-white mx-3 md:mx-16' />
     </div>
 
-    <section style={{ backgroundImage: `url(${aboutbg})` }} className='relative pt-10 md:pt-16 w-full h-full bg-cover bg-no-repeat bg-rounded-b-2xl bg-fixed font-custom pb-10 px-10'>
+    <section style={{ backgroundImage: `url(${aboutbg})` }} className='relative pt-10 md:pt-16 w-full h-full bg-cover bg-no-repeat bg-rounded-b-2xl bg-fixed font-custom pb-10 px-2'>
     <div class="absolute inset-0 bg-black bg-opacity-20 backdrop-blur-sm"></div>
     <div class="relative z-10 flex flex-col justify-center items-center space-y-2">
+
+            <div className='mb-4'>
+                <h1 className='text-white font-bold font-custom text-center text-3xl sm:text-5xl tracking-widest'>Trailer</h1>
+            </div>
+
+            <div className='h-full w-full my-10 flex justify-center'>
+
+            <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-2xl shadow-xl p-3 relative w-full h-0 pb-[60%] sm:pb-[40%] sm:w-[90%] mb-6">
+
+            <iframe className='absolute top-0 left-0 w-full h-full rounded-xl p-3'
+            src="https://www.youtube.com/embed/5paIFOWQFz8?si=1rro41N5Z8gxa2JT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            </div>
+            </div>
+
+
         <h1 class="text-white text-base md:text-2xl text-center  md:px-10 text-balance font-custom mb-8"> A vibrant community of finance enthusiasts. Learn from experts, connect with peers, and gain the confidence to achieve your financial goals.</h1>
 
                 {/* Render cards dynamically */}
                 {cardData.map((card, index) => (
-                    <div key={index} className={`flex flex-col md:flex-row items-center justify-center mb-16 md:mb-24 ${index % 2 === 0 ? 'md:justify-start' : 'md:justify-end'}`}>
-                        <div className="w-full md:w-3/4 py-6">
-                            <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-xl shadow-xl p-6 transition-transform transform hover:scale-110 delay-100 duration-500 md:flex md:flex-row flex-col gap-5 mx-1 md:mx-8">
-                                <img src={card.image} alt={card.title} className="md:w-full md:h-48 w-full h-40  object-cover rounded-lg border-2 border-white mb-1 md:mb-0" />
+                    <div key={index} className={`flex flex-col lg:flex-row items-center justify-center mb-16 md:mb-24 px-5 ${index % 2 === 0 ? 'lg:justify-start' : 'lg:justify-end'}`}>
+                        <div className="w-full lg:w-4/5 py-6">
+                            <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-xl shadow-xl p-6 transition-transform transform hover:scale-110 delay-100 duration-500 lg:flex lg:flex-row flex-col gap-5 mx-1 md:mx-8">
+                                <img src={card.image} alt={card.title} className="md:w-full md:h-48 w-full h-40  object-cover rounded-lg border-2 border-white mb-1 lg:mb-0" />
                                 <div className='flex flex-col gap-3'>
-                                    <h2 className="md:text-2xl text-base font-bold text-white mt-2 md:mt-0">{card.title}</h2>
+                                    <h2 className="md:text-2xl text-base font-bold text-white mt-2 lg:mt-0">{card.title}</h2>
                                     <p className="text-white text-balance md:text-base text-xs">{card.description}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 ))}
+        
     </div>
 
     </section>
