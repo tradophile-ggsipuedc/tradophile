@@ -67,7 +67,7 @@ function Header() {
             </div>
 
             {/* Mobile Menu Links */}
-            <div className={`md:hidden bg-black text-white font-semibold text-center ${menuOpen ? 'block' : 'hidden'}`}>
+            <div className={`md:hidden bg-black text-white font-semibold text-center font-custom ${menuOpen ? 'block' : 'hidden'}`}>
                 <ul className="space-y-4 p-5 pt-0 w-full">
                 <li><NavLink to="/" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}}  onClick={() => {setMenuOpen(false); window.scrollTo(0, 0);}}>Home</NavLink></li>
 

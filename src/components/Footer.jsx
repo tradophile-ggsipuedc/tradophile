@@ -25,9 +25,9 @@ function Footer() {
         <div className='flex flex-rows-2 md:flex-col lg:flex-row lg:gap-44 xl:gap-56 justify-evenly md:justify-center gap-5 mx-4 md:mx-12 my-4'>
             <div className='flex flex-col md:flex-row items-center gap-1 md:gap-12 justify-center'>
                 <h1 className='text-cyan-400 text-lg md:text-xl font-semibold'>Links</h1>
-                <NavLink to="/" className="text-white text-base md:text-lg font-normal hover:underline underline-offset-8">Home</NavLink>
-                <NavLink to="/blogs" className="text-white text-base md:text-lg font-normal hover:underline underline-offset-8">Blogs</NavLink>
-                <NavLink to="/team" className="text-white text-base md:text-lg font-normal hover:underline underline-offset-8">Team</NavLink>
+                <NavLink to="/" className="text-white text-base md:text-lg font-normal hover:underline underline-offset-8" onClick={() => window.scrollTo(0, 0)} >Home</NavLink>
+                <NavLink to="/blogs" className="text-white text-base md:text-lg font-normal hover:underline underline-offset-8" onClick={() => window.scrollTo(0, 0)}>Blogs</NavLink>
+                <NavLink to="/team" className="text-white text-base md:text-lg font-normal hover:underline underline-offset-8" onClick={() => window.scrollTo(0, 0)}>Team</NavLink>
             </div>
             <div className='flex flex-col md:flex-row items-center gap-1 md:gap-12 justify-center'>
                 <h1 className='text-cyan-400 text-lg md:text-xl font-semibold'>Contacts</h1>
@@ -38,7 +38,7 @@ function Footer() {
         </div>
         <div className='mx-5 md:mx-32'>
         <Marquee>
-            <h1 className='text-white md:text-lg text-sm text-center mx-60 pb-2'>Website developed and maintained by <span className='text-cyan-400 font-medium'>Technology & Innovation Team Tradophile</span> </h1>
+            <h1 className='text-white md:text-lg text-sm text-center mx-24 md:mx-60 pb-2'>Website developed and maintained by <span className='text-cyan-400 font-medium'>Technology & Innovation Team Tradophile</span> </h1>
         </Marquee>
         </div>
 
