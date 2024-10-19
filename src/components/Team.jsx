@@ -64,7 +64,7 @@ function Team() {
 
   return (
     <>
-      <div className='md:p-12 p-10 bg-gradient-to-r from-sky-950 via-cyan-800 to-sky-950 pt-40 md:pt-44 font-custom'>
+      <div className='md:p-12 p-10 bg-gradient-to-r from-sky-950 via-cyan-800 to-sky-950 pt-24 md:pt-32 font-custom'>
          <h1 className='text-center text-4xl md:text-6xl text-white font-black tracking-widest'>Our Team</h1>
      </div>
       <div className='bg-black px-2 pb-20 font-custom'>
