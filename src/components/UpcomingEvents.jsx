@@ -26,7 +26,7 @@ function UpcomingEvents() {
                     </div>
                 </div>
             </div>
-            <NavLink to="/financebootcamp" className="text-xl md:text-4xl text-white font-bold text-center hover:text-cyan-400 mb-10">Click here for more info</NavLink>
+            <NavLink to="/financebootcamp" className="text-xl md:text-4xl text-white font-bold text-center hover:text-cyan-400 mb-10" onClick={() => window.scrollTo(0, 0)}>Click here for more info</NavLink>
     </div>
 
     </section>
