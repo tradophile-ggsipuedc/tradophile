@@ -19,7 +19,7 @@ function UpcomingEvents() {
                 <div className="w-5/6 ">
                     <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-2xl shadow-xl p-4 transition-transform transform hover:scale-110 delay-100 duration-500 md:flex md:flex-row flex-col gap-5 mx-1 md:mx-8">
 
-                        <NavLink to="/financebootcamp">
+                        <NavLink to="/financebootcamp" onClick={() => window.scrollTo(0, 0)}>
                         <img src={bootcampmobile} alt="" className='md:hidden border-2 border-white rounded-lg' />
                         <img src={bootcampwide} alt="" className='hidden md:block border-2 border-white rounded-2xl' />
                         </NavLink>
