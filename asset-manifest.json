@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tradophile/static/css/main.2f4e36b8.css",
-    "main.js": "/tradophile/static/js/main.b46a6526.js",
+    "main.js": "/tradophile/static/js/main.59866f6a.js",
     "static/js/453.0151891a.chunk.js": "/tradophile/static/js/453.0151891a.chunk.js",
     "static/media/bgvid.mp4": "/tradophile/static/media/bgvid.e303b3f4e2297eb3fd2a.mp4",
     "static/media/orientationportrait.png": "/tradophile/static/media/orientationportrait.2b38bf5df28623e06908.png",
@@ -33,11 +33,11 @@
     "static/media/ipulogo.png": "/tradophile/static/media/ipulogo.86970e97c381106b4882.png",
     "index.html": "/tradophile/index.html",
     "main.2f4e36b8.css.map": "/tradophile/static/css/main.2f4e36b8.css.map",
-    "main.b46a6526.js.map": "/tradophile/static/js/main.b46a6526.js.map",
+    "main.59866f6a.js.map": "/tradophile/static/js/main.59866f6a.js.map",
     "453.0151891a.chunk.js.map": "/tradophile/static/js/453.0151891a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f4e36b8.css",
-    "static/js/main.b46a6526.js"
+    "static/js/main.59866f6a.js"
   ]
 }
