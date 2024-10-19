@@ -8,6 +8,7 @@ module.exports = {
       fontFamily:{
         tradophile: ['rowdies'],
         custom: ['montserrat'],
+        custom2: ['saira'],
       },
       screens: {
         'sm': '425px',  // Small devices (425px)
@@ -17,6 +18,10 @@ module.exports = {
       },
       backdropBlur: {
         'xs': '2px',  // Custom backdrop-blur with 2px blur effect
+      },
+      backgroundImage: {
+        'mobile-bg': "url('./assets/imgs/bitcoinbgmobile.jpg')",
+        'wide-bg': "url('./assets/imgs/bitcoinbgwide.jpg')",
       },
     },
   },

@@ -2,7 +2,6 @@ import React from 'react'
 import logonobg from '../assets/logos/tradophilenobg.png'
 import About from './About'
 import Events from './Events'
-
 import bgvid from '../assets/imgs/bgvid.mp4'
 
 function Home() {
@@ -12,14 +11,7 @@ function Home() {
     <section 
     className='relative mt-20 py-28 w-full max-h-min bg-cover bg-no-repeat bg-fixed'>
 
-        <div className='absolute inset-0'>
-        <video src={bgvid} autoPlay loop muted className='bg-fixed h-full object-cover'/>
-        </div>
-
-
-
-
-       
+        <video src={bgvid} autoPlay loop muted className='absolute inset-0 h-full object-cover'/>
     <div className="absolute inset-0 bg-black bg-opacity-30 backdrop-blur-xs h-full ">
     </div>
     <div className="relative z-10 flex flex-col justify-center items-center space-y-4 px-4 overflow-hidden">
@@ -39,8 +31,8 @@ function Home() {
 
    
 
-    <About/>
     <Events/>
+    <About/>
       
     </>
   )

@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import tradophilelogo from '../assets/logos/tradophilelogo.jpg'
 import { LuMenuSquare } from "react-icons/lu";
 import { FaRegWindowClose } from "react-icons/fa";
+import Message from './Message';
 
 function Header() {
     const [scrolled, setScrolled] = useState(false);
@@ -32,7 +33,7 @@ function Header() {
     };
 
   return (
-    <header>
+    <header className='z-50 mb-24'>
         <nav className={`fixed z-50 bg-black top-0 left-0 w-full transition-all duration-500 ease-in-out ${scrolled ? 'h-20' : 'h-28'}  p-1 pb-0`}>
             <div className='flex justify-between items-center font-custom'>
                 <NavLink to="/"><img src={tradophilelogo} alt="" className={`mx-6 flex items-center justify-center rounded-full transition-all duration-500 ease-in-out ${scrolled ? 'h-16 w-16' : 'h-24 w-24'}`} /></NavLink>
@@ -82,7 +83,9 @@ function Header() {
                 <li><NavLink to="/contact" className={(e)=>{return e.isActive?"text-cyan-400 underline underline-offset-8": "block hover:underline underline-offset-8"}} onClick={() => {setMenuOpen(false); window.scrollTo(0, 0);}}>Contact</NavLink></li>
                 </ul>
             </div>
+        <Message/>
         </nav>
+
         
     </header>
 

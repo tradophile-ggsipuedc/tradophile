@@ -1,5 +1,4 @@
 import React from 'react'
-import aboutbg from '../assets/imgs/aboutbg.png'
 import cardimg1 from '../assets/aboutus/card1.jpg'
 import cardimg2 from '../assets/aboutus/card2.jpg'
 import cardimg3 from '../assets/aboutus/card3.jpg'
@@ -42,8 +41,8 @@ function About() {
          <hr className='border-t-2 border-white mx-3 md:mx-16' />
     </div>
 
-    <section style={{ backgroundImage: `url(${aboutbg})` }} className='relative pt-10 md:pt-16 w-full h-full bg-cover bg-no-repeat bg-rounded-b-2xl bg-fixed font-custom pb-10 px-2'>
-    <div class="absolute inset-0 bg-black bg-opacity-20 backdrop-blur-sm"></div>
+    <section className='bg-mobile-bg md:bg-wide-bg relative pt-10 md:pt-16 w-full h-full bg-cover bg-no-repeat bg-rounded-b-2xl bg-fixed font-custom pb-10 px-2'>
+    <div class="absolute inset-0 bg-black bg-opacity-70 backdrop-blur-sm"></div>
     <div class="relative z-10 flex flex-col justify-center items-center space-y-2">
 
             <div className='mb-4'>
