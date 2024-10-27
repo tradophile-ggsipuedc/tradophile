@@ -12,6 +12,7 @@ import kartik from '../assets/members/kartik.jpg'
 import jhade from '../assets/members/jhade.jpg'
 import vivek from '../assets/members/vivek.jpg'
 import sourav from '../assets/members/sourav.jpg'
+import yashgupta from '../assets/members/yashgupta.jpg'
 
 function DomainTeams() {
 
@@ -132,6 +133,19 @@ function DomainTeams() {
                 instagram: 'https://www.instagram.com/_h.app.y__?igsh=MWxza3EzczZjdHdpdg==',
                 linkedin: 'https://www.linkedin.com/in/sourav-sethy-a70a07255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
                 x: ''
+              },
+            },
+          },
+          {
+            teamName: 'Event Management',
+            teamdesc: 'The backbone of all club events, responsible for planning, organizing, and executing with precision. Ensures smooth operations, maintains discipline, and coordinates with other teams to create impactful and memorable experiences.',
+            leader: {
+              name: 'Yash Gupta',
+              photo: yashgupta, 
+              socialLinks: {
+                instagram: 'https://www.instagram.com/i_yashg/',
+                linkedin: 'https://www.linkedin.com/in/iamyashg',
+                x: 'https://x.com/iam_yashg',
               },
             },
           },

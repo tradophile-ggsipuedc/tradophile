@@ -5,7 +5,6 @@ import { FaRegGrinStars } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
-
 function Bootcamp() {
 
     const [openIndex, setOpenIndex] = useState(null);
@@ -42,7 +41,7 @@ function Bootcamp() {
                 </p>
                 
                 <div className='flex justify-center items-center my-10'>
-                    <NavLink to="https://shorturl.at/vevla" target='_blank' className='flex gap-2 items-center bg-gradient-to-r from-blue-800 to-indigo-900 py-4 md:py-5 px-8 md:px-12 font-bold text-xl md:text-4xl rounded-full focus:ring-4 focus:ring-cyan-500 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300'>
+                    <NavLink to="https://shorturl.at/vevla" target='_blank' className='flex gap-2 items-center bg-gradient-to-r from-blue-800 to-indigo-900 py-4 md:py-5 px-8 md:px-12 font-bold text-xl md:text-4xl rounded-full focus:ring-4 focus:ring-cyan-500 transition ease-in-out bg-blue-500 hover:-translate-y-2 hover:scale-110 hover:bg-indigo-500 duration-300'>
 
                     <h1 className=''>Register</h1>
                     <span className='text-2xl md:text-4xl md:ms-1 text-white'><MdLogin /></span>

@@ -9,9 +9,11 @@ function Home() {
     <>
     {/* WIDE SCREEN SECTION */}
     <section 
-    className='relative mt-20 py-28 w-full max-h-min bg-cover bg-no-repeat bg-fixed'>
+    className='relative mt-20 py-28 w-full max-h-min  bg-cover bg-no-repeat bg-fixed'>
 
-        <video src={bgvid} autoPlay loop muted className='absolute inset-0 h-full object-cover'/>
+
+        <video src={bgvid} autoPlay loop muted className='absolute inset-0 mx-auto h-full object-cover'/>
+
     <div className="absolute inset-0 bg-black bg-opacity-30 backdrop-blur-xs h-full ">
     </div>
     <div className="relative z-10 flex flex-col justify-center items-center space-y-4 px-4 overflow-hidden">
