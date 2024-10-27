@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/tradophile/static/css/main.2f4e36b8.css",
-    "main.js": "/tradophile/static/js/main.59866f6a.js",
+    "main.css": "/tradophile/static/css/main.6042821f.css",
+    "main.js": "/tradophile/static/js/main.b8b37bee.js",
     "static/js/453.0151891a.chunk.js": "/tradophile/static/js/453.0151891a.chunk.js",
     "static/media/bgvid.mp4": "/tradophile/static/media/bgvid.e303b3f4e2297eb3fd2a.mp4",
     "static/media/orientationportrait.png": "/tradophile/static/media/orientationportrait.2b38bf5df28623e06908.png",
+    "static/media/yashgupta.jpg": "/tradophile/static/media/yashgupta.c7e6ffca465d62330c41.jpg",
     "static/media/bootcampwide.png": "/tradophile/static/media/bootcampwide.d5dbdd8af99e8825e5a3.png",
     "static/media/card2.jpg": "/tradophile/static/media/card2.e17115b8b4cc2354c445.jpg",
     "static/media/card4.jpg": "/tradophile/static/media/card4.487fd45311ce2041117f.jpg",
@@ -14,11 +15,11 @@
     "static/media/bitcoinbgwide.jpg": "/tradophile/static/media/bitcoinbgwide.54c03650faf37813e3ff.jpg",
     "static/media/shashwat.jpg": "/tradophile/static/media/shashwat.e92131b280adef8cb805.jpg",
     "static/media/card1.jpg": "/tradophile/static/media/card1.bf7ee340f17fed12e5f0.jpg",
-    "static/media/supril.jpg": "/tradophile/static/media/supril.e6e555f4c494d4363248.jpg",
     "static/media/vanshsethi.jpg": "/tradophile/static/media/vanshsethi.f26100c8c5906b97435c.jpg",
     "static/media/vivek.jpg": "/tradophile/static/media/vivek.c5c8ad691235a22482c5.jpg",
     "static/media/kartik.jpg": "/tradophile/static/media/kartik.44760572e2369d8d1094.jpg",
     "static/media/satyam.jpg": "/tradophile/static/media/satyam.8f065520372c728c1ca5.jpg",
+    "static/media/supril.jpg": "/tradophile/static/media/supril.27abc1d1dbebbd2efe8c.jpg",
     "static/media/tradophilenobg.png": "/tradophile/static/media/tradophilenobg.f46f2ff3eba9b33a6933.png",
     "static/media/bootcampmobile.jpg": "/tradophile/static/media/bootcampmobile.573a18b6e488d3716c6a.jpg",
     "static/media/shruti.jpg": "/tradophile/static/media/shruti.5b8f46dd278a745fdd50.jpg",
@@ -32,12 +33,12 @@
     "static/media/nitin.jpg": "/tradophile/static/media/nitin.9edc965e1d5848a76111.jpg",
     "static/media/ipulogo.png": "/tradophile/static/media/ipulogo.86970e97c381106b4882.png",
     "index.html": "/tradophile/index.html",
-    "main.2f4e36b8.css.map": "/tradophile/static/css/main.2f4e36b8.css.map",
-    "main.59866f6a.js.map": "/tradophile/static/js/main.59866f6a.js.map",
+    "main.6042821f.css.map": "/tradophile/static/css/main.6042821f.css.map",
+    "main.b8b37bee.js.map": "/tradophile/static/js/main.b8b37bee.js.map",
     "453.0151891a.chunk.js.map": "/tradophile/static/js/453.0151891a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f4e36b8.css",
-    "static/js/main.59866f6a.js"
+    "static/css/main.6042821f.css",
+    "static/js/main.b8b37bee.js"
   ]
 }
