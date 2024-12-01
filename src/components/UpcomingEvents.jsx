@@ -1,7 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
-import bootcampwide from '../assets/imgs/bootcampwide.png'
-import bootcampmobile from '../assets/imgs/bootcampmobile.jpg'
 
 function UpcomingEvents() {
   return (
