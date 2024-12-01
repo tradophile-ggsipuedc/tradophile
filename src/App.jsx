@@ -7,7 +7,6 @@ import Events from './pages/Events';
 import Blogs from './pages/Blogs';
 import Contact from './pages/Contact';
 import Footer from './components/Footer'
-import Bootcamp from './components/Bootcamp';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
