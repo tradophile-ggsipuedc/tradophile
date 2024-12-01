@@ -20,8 +20,8 @@ module.exports = {
         'xs': '2px',  // Custom backdrop-blur with 2px blur effect
       },
       backgroundImage: {
-        'mobile-bg': "url('./assets/imgs/bitcoinbgmobile.jpg')",
-        'wide-bg': "url('./assets/imgs/bitcoinbgwide.jpg')",
+        'mobile-bg': "url('/public/imgs/bitcoinbgmobile.jpg')",
+        'wide-bg': "url('/public/imgs/bitcoinbgwide.jpg')",
       },
     },
   },

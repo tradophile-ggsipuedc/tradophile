@@ -1,6 +1,7 @@
 import React from 'react'
-import orientationwide from '../assets/imgs/orientationwide.png'
-import orientationmobile from '../assets/imgs/orientationportrait.png'
+
+import OrientationCarousel from './OrientationCarousel'
+import BootcampCarousel from './BootcampCarousel'
 
 function PastEvents() {
   return (
@@ -10,17 +11,21 @@ function PastEvents() {
     </div>
     <section className='bg-mobile-bg md:bg-wide-bg relative pt-10 md:pt-16 w-full h-full bg-cover bg-no-repeat bg-rounded-b-2xl bg-fixed font-custom'>
     <div class="absolute inset-0 bg-black bg-opacity-60 backdrop-blur-sm"></div>
-    <div class="relative z-10 flex flex-col justify-center items-center space-y-2">
+    <div class="relative z-10 flex flex-col justify-center items-center space-y-2 mb-5">
+      
+      <div className='flex flex-col md:flex-row md:space-x-8 items-center justify-center mb-5 text-2xl sm:text-3xl md:text-4xl font-bold '>
+      <h1 className='font-custom2 text-cyan-500'>Annual Finance Bootcamp</h1>
+      <h1 className='font-custom2 text-white'>21st - 25th Oct. 2024</h1>
+      </div>
+      <BootcampCarousel/>
 
-                {/* Render cards dynamically */}
-            <div className="flex flex-col md:flex-row items-center justify-center mb-16 md:mb-24 mt-5">
-                <div className="w-5/6 ">
-                    <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-2xl shadow-xl p-4 transition-transform transform hover:scale-110 delay-100 duration-500 md:flex md:flex-row flex-col gap-5 mx-1 md:mx-8">
-                        <img src={orientationmobile} alt="" className='md:hidden border-2 border-white rounded-lg' />
-                        <img src={orientationwide} alt="" className='hidden md:block border-2 border-white rounded-2xl' />    
-                    </div>
-                </div>
-            </div>
+      <div className='flex flex-col md:flex-row md:space-x-8 items-center justify-center text-2xl sm:text-3xl md:text-5xl font-bold mb-5'>
+      <h1 className='font-custom2 text-cyan-500'>Club Orientation</h1>
+      <h1 className='font-custom2 text-white'>27th Sept. 2024</h1>
+      </div>
+
+      <OrientationCarousel/>
+            
     </div>
 
     </section>

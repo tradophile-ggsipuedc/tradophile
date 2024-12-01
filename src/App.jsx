@@ -1,11 +1,11 @@
 import './App.css';
 import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Team from './components/Team';
-import Events from './components/Events';
-import Blogs from './components/Blogs';
-import Contact from './components/Contact';
+import Home from './pages/Home';
+import About from './pages/About';
+import Team from './pages/Team';
+import Events from './pages/Events';
+import Blogs from './pages/Blogs';
+import Contact from './pages/Contact';
 import Footer from './components/Footer'
 import Bootcamp from './components/Bootcamp';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
@@ -21,7 +21,6 @@ function App() {
           <Route path="/events" element={<><Header/><Events/><Footer/></>} />
           <Route path="/blogs" element={<><Header/><Blogs/><Footer/></>} />
           <Route path="/contact" element={<><Header/><Contact/><Footer/></>} />
-          <Route path="/financebootcamp" element={<><Header/><Bootcamp/><Footer/></>} />
         </Routes>
       </Router>  
     </>
