@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom';
 import tradophilelogo from '../assets/logos/tradophilelogo.jpg'
-import { LuMenuSquare } from "react-icons/lu";
+import { LuMenu } from "react-icons/lu";
 import { FaRegWindowClose } from "react-icons/fa";
 import Message from './Message';
 
@@ -63,7 +63,7 @@ function Header() {
                           <FaRegWindowClose />
                       ) : (
                           // Show hamburger icon when the menu is closed
-                          <LuMenuSquare />
+                          <LuMenu />
                       )}
                     </button>
                 </div>              

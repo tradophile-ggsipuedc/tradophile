@@ -26,8 +26,18 @@ module.exports = {
     },
   },
   plugins: [
-    require('tailwind-scrollbar-hide'),
     require('@tailwindcss/aspect-ratio'),
+    function({ addUtilities }) {
+      addUtilities({
+        '.scrollbar-hide': {
+          '-ms-overflow-style': 'none',
+          'scrollbar-width': 'none',
+          '&::-webkit-scrollbar': {
+            display: 'none'
+          }
+        }
+      })
+    }
   ],
 
 }
