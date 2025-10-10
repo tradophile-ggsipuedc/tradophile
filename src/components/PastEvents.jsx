@@ -2,6 +2,7 @@ import React from 'react'
 
 import OrientationCarousel from './OrientationCarousel'
 import BootcampCarousel from './BootcampCarousel'
+import TradomateCarousel from './TradomateCarousel'
 
 function PastEvents() {
   return (
