@@ -46,7 +46,7 @@ function Footer() {
      <hr className='border-t-2 border-white mx-5 md:mx-16 py-1 ' />
 
      <div className='p-1'>
-        <h1 className='text-white md:text-sm text-xs text-center'>© TRADOPHILE GGSIPU EDC 2024 All Rights Reserved</h1>
+        <h1 className='text-white md:text-sm text-xs text-center'>© TRADOPHILE GGSIPU EDC 2025 All Rights Reserved</h1>
      </div>
     </div>
     </>
