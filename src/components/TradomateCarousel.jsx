@@ -18,7 +18,7 @@ const images = [
     tm5,
 ];
 
-const BootcampCarousel = () => {
+const TradomateCarousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const goToPrevious = () => {
@@ -80,4 +80,4 @@ const BootcampCarousel = () => {
     );
 };
 
-export default BootcampCarousel;
+export default TradomateCarousel;
