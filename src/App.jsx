@@ -5,6 +5,7 @@ import About from './pages/About';
 import Team from './pages/Team';
 import Events from './pages/Events';
 import Blogs from './pages/Blogs';
+import Magazine from './pages/Magazine';
 import Contact from './pages/Contact';
 import Footer from './components/Footer'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
@@ -19,6 +20,7 @@ function App() {
           <Route path="/team" element={<><Header/><Team/><Footer/></>} />
           <Route path="/events" element={<><Header/><Events/><Footer/></>} />
           <Route path="/blogs" element={<><Header/><Blogs/><Footer/></>} />
+          <Route path="/magazine" element={<><Header/><Magazine/><Footer/></>} />
           <Route path="/contact" element={<><Header/><Contact/><Footer/></>} />
         </Routes>
       </Router>  
