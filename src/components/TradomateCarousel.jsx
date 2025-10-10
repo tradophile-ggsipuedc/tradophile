@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "tailwindcss/tailwind.css";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
 
-import tms from "../assets/tradomate/seminar1.jpg";
+import tmweb from "../assets/tradomate/tweb.jpg";
 import tm1 from "../assets/tradomate/tmate1.jpg";
 import tm2 from "../assets/tradomate/tmate2.jpg";
 import tm3 from "../assets/tradomate/tmate3.jpg";
@@ -10,7 +10,7 @@ import tm4 from "../assets/tradomate/tmate4.jpg";
 import tm5 from "../assets/tradomate/tmate5.jpg";
 
 const images = [
-    tms,
+    tmweb,
     tm1,
     tm2,
     tm3,
