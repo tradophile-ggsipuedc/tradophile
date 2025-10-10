@@ -9,7 +9,7 @@ function Message() {
         <span className='text-lg md:text-xl font-semibold text-cyan-400 mx-1 md:mx-2'>Message:</span>
         <Marquee>
             <NavLink to="/events" className='text-white font-medium text-base md:text-lg md:mx-32 mx-20 tracking-wider' >
-            28th Feb 2025, Friday: Finance Webinar CFA & Co-Founder of Tradomate.One
+            15th Oct 2025, Wednesday: Personal Finance Seminar & Quiz Competition in Collaboration with Simplify Money
             </NavLink>
         </Marquee>
     </div>
