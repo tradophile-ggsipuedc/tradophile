@@ -2,11 +2,11 @@ import React, { useState, useEffect, useCallback } from "react";
 import "tailwindcss/tailwind.css";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
 
-import tm1 from "../assets/orientation/tmate1.jpg";
-import tm2 from "../assets/orientation/tmate2.jpg";
-import tm3 from "../assets/orientation/tmate3.jpg";
-import tm4 from "../assets/orientation/tmate4.jpg";
-import tm5 from "../assets/orientation/tmate5.jpg";
+import tm1 from "../assets/tradomate/tmate1.jpg";
+import tm2 from "../assets/tradomate/tmate2.jpg";
+import tm3 from "../assets/tradomate/tmate3.jpg";
+import tm4 from "../assets/tradomate/tmate4.jpg";
+import tm5 from "../assets/tradomate/tmate5.jpg";
 
 const images = [tm1, tm2, tm3, tm4, tm5];
 
