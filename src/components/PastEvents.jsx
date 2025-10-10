@@ -13,6 +13,13 @@ function PastEvents() {
     <section className='bg-mobile-bg md:bg-wide-bg relative pt-10 md:pt-16 w-full h-full bg-cover bg-no-repeat bg-rounded-b-2xl bg-fixed font-custom'>
     <div className="absolute inset-0 bg-black bg-opacity-60 backdrop-blur-sm"></div>
     <div className="relative z-10 flex flex-col justify-center items-center space-y-2 mb-5">
+
+      <div className='flex flex-col md:flex-row md:space-x-8 items-center justify-center mb-5 text-2xl sm:text-3xl md:text-4xl font-bold '>
+      <h1 className='font-custom2 text-cyan-500'>Tradomate.One Webinar</h1>
+      <h1 className='font-custom2 text-white'>28th Feb. 2025</h1>
+      </div>
+      
+      <TradomateCarousel/>
       
       <div className='flex flex-col md:flex-row md:space-x-8 items-center justify-center mb-5 text-2xl sm:text-3xl md:text-4xl font-bold '>
       <h1 className='font-custom2 text-cyan-500'>Annual Finance Bootcamp</h1>
@@ -26,13 +33,6 @@ function PastEvents() {
       </div>
 
       <OrientationCarousel/>
-
-      <div className='flex flex-col md:flex-row md:space-x-8 items-center justify-center mb-5 text-2xl sm:text-3xl md:text-4xl font-bold '>
-      <h1 className='font-custom2 text-cyan-500'>Tradomate.One Webinar</h1>
-      <h1 className='font-custom2 text-white'>28th Feb. 2025</h1>
-      </div>
-      
-      <TradomateCarousel/>
             
     </div>
 
