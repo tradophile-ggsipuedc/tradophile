@@ -33,7 +33,7 @@ const BootcampCarousel = () => {
         const isLastSlide = currentIndex === images.length - 1;
         const newIndex = isLastSlide ? 0 : currentIndex + 1;
         setCurrentIndex(newIndex);
-    };
+    }, [currentIndex]);
 
     useEffect(() => {
         const timer = setTimeout(goToNext, 3500);
