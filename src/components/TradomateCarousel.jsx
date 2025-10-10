@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import "tailwindcss/tailwind.css";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
 
-import tm1 from "../assets/orientation/tmate1.png";
+import tm1 from "../assets/orientation/tmate1.jpg";
 import tm2 from "../assets/orientation/tmate2.jpg";
 import tm3 from "../assets/orientation/tmate3.jpg";
 import tm4 from "../assets/orientation/tmate4.jpg";
