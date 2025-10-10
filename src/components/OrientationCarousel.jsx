@@ -18,7 +18,6 @@ const OrientationCarousel = () => {
     setCurrentIndex(i => (i === 0 ? images.length - 1 : i - 1));
   };
 
-  // ✅ stable, no deps; uses functional updater so it doesn't close over state
   const goToNext = useCallback(() => {
     setCurrentIndex(i => (i === images.length - 1 ? 0 : i + 1));
   }, []);
@@ -26,7 +25,7 @@ const OrientationCarousel = () => {
   useEffect(() => {
     const timer = setTimeout(goToNext, 3500);
     return () => clearTimeout(timer);
-  }, [goToNext]); // ✅ depends on the stable callback, not useCallback
+  }, [goToNext]);
 
   return (
     <section>
