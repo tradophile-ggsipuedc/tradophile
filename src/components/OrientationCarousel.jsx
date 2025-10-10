@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import "tailwindcss/tailwind.css";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
 
@@ -27,7 +27,7 @@ const OrientationCarousel = () => {
         setCurrentIndex(newIndex);
     };
 
-    const goToNext = () => {
+    const goToNext = useCallback(() => {
         const isLastSlide = currentIndex === images.length - 1;
         const newIndex = isLastSlide ? 0 : currentIndex + 1;
         setCurrentIndex(newIndex);
@@ -36,7 +36,7 @@ const OrientationCarousel = () => {
     useEffect(() => {
         const timer = setTimeout(goToNext, 3500);
         return () => clearTimeout(timer);
-    }, [currentIndex]);
+    }, [useCallback]);
 
     return (
         <section>
