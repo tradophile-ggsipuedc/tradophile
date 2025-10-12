@@ -7,6 +7,7 @@ import tm2 from "../assets/tradomate/tmate2.jpg";
 import tm3 from "../assets/tradomate/tmate3.jpg";
 import tm4 from "../assets/tradomate/tmate4.jpg";
 import tm5 from "../assets/tradomate/tmate5.jpg";
+import tmposter from "../assets/tradomate/tmate_poster.jpg";
 
 const images = [tm1, tm2, tm3, tm4, tm5];
 
