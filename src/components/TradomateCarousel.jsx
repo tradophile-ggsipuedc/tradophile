@@ -9,7 +9,7 @@ import tm4 from "../assets/tradomate/tmate4.jpg";
 import tm5 from "../assets/tradomate/tmate5.jpg";
 import tmposter from "../assets/tradomate/tmate_poster.jpg";
 
-const images = [tm1, tm2, tm3, tm4, tm5];
+const images = [tm1, tm2, tm3, tm4, tm5, tmposter];
 
 const TradomateCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
