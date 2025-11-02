@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import tradophilelogo from '../assets/logos/tradophilelogo.jpg'
+import tradophilelogo from '../assets/logos/tradophile-logo.png'
 import ipulogo from '../assets/logos/ipulogo.png'
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { SiWhatsapp } from "react-icons/si";
@@ -14,7 +14,7 @@ function Footer() {
      <hr className='border-t-2 border-white mx-5 md:mx-16 py-1 md:py-2' />
         <div className='flex justify-between items-center mx-4 md:mx-8'>
             <div className='flex gap-4 items-center'>
-                <img src={tradophilelogo} alt="" className='w-24 h-24 md:w-36 md:h-36'/>
+                <img src={tradophilelogo} alt="" className='h-24 md:h-36'/>
                 <h1 className='text-white text-sm md:text-2xl font-bold font-tradophile hidden md:block'>TRADOPHILE</h1>
             </div>
             <div className='flex gap-4 items-center'>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom';
-import tradophilelogo from '../assets/logos/tradophilelogo.jpg'
+import tradophilelogo from '../assets/logos/tradophile-logo.png'
 import { LuMenu } from "react-icons/lu";
 import { FaRegWindowClose } from "react-icons/fa";
 import Message from './Message';
@@ -36,7 +36,7 @@ function Header() {
     <header className='z-50 mb-24'>
         <nav className={`fixed z-50 bg-black top-0 left-0 w-full transition-all duration-500 ease-in-out ${scrolled ? 'h-20' : 'h-28'}  p-1 pb-0`}>
             <div className='flex justify-between items-center font-custom'>
-                <NavLink to="/"><img src={tradophilelogo} alt="" className={`mx-6 flex items-center justify-center rounded-full transition-all duration-500 ease-in-out ${scrolled ? 'h-16 w-16' : 'h-24 w-24'}`} /></NavLink>
+                <NavLink to="/"><img src={tradophilelogo} alt="" className={`mx-6 flex items-center justify-center rounded-full transition-all duration-500 ease-in-out ${scrolled ? 'h-16' : 'h-24'}`} /></NavLink>
 
                 {/* WIDE SCREEN NAV toS */}
                 <div className='hidden md:flex md:space-x-12 mx-16 lg:text-xl md:text-lg text-white font-semibold px-5'>

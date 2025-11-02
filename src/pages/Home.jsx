@@ -1,5 +1,5 @@
 import React from 'react'
-import logonobg from '../assets/logos/tradophilenobg.png'
+import logonobg from '../assets/logos/tradophile-logo.png'
 import About from './About'
 import Events from './Events'
 import bgvid from '../assets/imgs/bgvid.mp4'
