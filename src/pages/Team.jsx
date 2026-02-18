@@ -7,7 +7,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import vaibhav from '../assets/members/vaibhav.jpg';
 import ishank from '../assets/members/ishank.jpg';
 import shashwat from '../assets/members/shashwat.jpg';
-import dhairya from '../assets/members/dhairya.jpg';
+import roshan from '../assets/members/roshan.jpg';
 import mukul from '../assets/members/mukul.jpg';
 
 function Team() {
@@ -44,9 +44,9 @@ function Team() {
           },
         },
         {
-          name: 'Dhairya Gupta',
-          post: 'Joint Secretary',
-          photo: dhairya,
+          name: 'Roshan Kumar',
+          post: 'Web Chair',
+          photo: roshan,
           social: {
             instagram: "https://www.instagram.com/not-found",
           },
