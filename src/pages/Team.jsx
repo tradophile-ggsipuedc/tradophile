@@ -19,7 +19,7 @@ function Team() {
           photo: vaibhav,
           social: {
             instagram: 'https://www.instagram.com/vansh6803?igsh=MWE3YjVjZmY4anBq',
-            linkedin: 'https://www.linkedin.com/in/vanshsethi23',
+            linkedin: 'https://www.linkedin.com/in/vaibhav-wason-159743261?utm_source=share_via&utm_content=profile&utm_medium=member_android',
             x: 'https://x.com/VanshSethitwts',
           },
         },
@@ -48,7 +48,7 @@ function Team() {
           post: 'Web Chair',
           photo: roshan,
           social: {
-            linkedin: "https://www.linkedin.com/in/roshan-kumar-96b82237a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+            linkedin: 'https://www.linkedin.com/in/roshan-kumar-96b82237a?utm_source=share_via&utm_content=profile&utm_medium=member_android',
           },
         },
         {
