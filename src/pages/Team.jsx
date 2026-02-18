@@ -4,7 +4,7 @@ import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 // IMAGES IMPORT
-import vanshsethi from '../assets/members/vanshsethi.jpg';
+import vaibhavwason from '../assets/members/vaibhav.jpg';
 import yashrajvaid from '../assets/members/yashvaid.jpg';
 import shashwat from '../assets/members/shashwat.jpg';
 import dhairya from '../assets/members/dhairya.jpg';
@@ -14,9 +14,9 @@ function Team() {
 
     const teamMembers = [
         {
-          name: 'Vansh Sethi',
+          name: 'Vaibhav Wason',
           post: 'Chair',
-          photo: vanshsethi,
+          photo: vaibhav,
           social: {
             instagram: 'https://www.instagram.com/vansh6803?igsh=MWE3YjVjZmY4anBq',
             linkedin: 'https://www.linkedin.com/in/vanshsethi23',
