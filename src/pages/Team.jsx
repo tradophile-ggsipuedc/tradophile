@@ -5,10 +5,10 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 // IMAGES IMPORT
 import vaibhav from '../assets/members/vaibhav.jpg';
-import yashrajvaid from '../assets/members/yashvaid.jpg';
+import ishank from '../assets/members/ishank.jpg';
 import shashwat from '../assets/members/shashwat.jpg';
 import dhairya from '../assets/members/dhairya.jpg';
-import kartikay from '../assets/members/kartikay.jpg';
+import mukul from '../assets/members/mukul.jpg';
 
 function Team() {
 
@@ -24,9 +24,9 @@ function Team() {
           },
         },
         {
-          name: 'Yash Raj Vaid',
+          name: 'Ishank Rajput',
           post: 'Vice Chair',
-          photo: yashrajvaid,
+          photo: ishank,
           social: {
             instagram: 'https://www.instagram.com/yashrajvaid7?igsh=ZGc4Y3pvcDdwYzZr',
             linkedin: 'https://www.linkedin.com/in/yash-raj-vaid-291a47212',
@@ -52,9 +52,9 @@ function Team() {
           },
         },
         {
-          name: 'Kartikay',
+          name: 'Mukul Joshi',
           post: 'Treasurer',
-          photo: kartikay,
+          photo: mukul,
           social: {
             instagram: "https://www.linkedin.com/in/kartikay-s-4b2aba25b/",
             x: 'https://x.com/KartikAloneWolf',
