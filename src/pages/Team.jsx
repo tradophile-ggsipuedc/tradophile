@@ -48,7 +48,7 @@ function Team() {
           post: 'Web Chair',
           photo: roshan,
           social: {
-            instagram: "https://www.instagram.com/not-found",
+            linkedin: "https://www.linkedin.com/in/roshan-kumar-96b82237a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
           },
         },
         {
