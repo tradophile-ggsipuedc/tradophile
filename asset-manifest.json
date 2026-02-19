@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tradophile/static/css/main.40f18741.css",
-    "main.js": "/tradophile/static/js/main.05d5f6bb.js",
+    "main.js": "/tradophile/static/js/main.24a99d6b.js",
     "static/js/453.5ed8f7f3.chunk.js": "/tradophile/static/js/453.5ed8f7f3.chunk.js",
     "static/media/bgvid.mp4": "/tradophile/static/media/bgvid.e303b3f4e2297eb3fd2a.mp4",
     "static/media/yashgupta.jpg": "/tradophile/static/media/yashgupta.c7e6ffca465d62330c41.jpg",
@@ -17,6 +17,7 @@
     "static/media/card3.jpg": "/tradophile/static/media/card3.5f8f25e8cd99d64ff1c5.jpg",
     "static/media/bitcoinbgwide.jpg": "/tradophile/static/media/bitcoinbgwide.54c03650faf37813e3ff.jpg",
     "static/media/rachit.jpg": "/tradophile/static/media/rachit.884379ff723efb1d24db.jpg",
+    "static/media/roshan.jpg": "/tradophile/static/media/roshan.6127b3dba609dbeae405.jpg",
     "static/media/card1.jpg": "/tradophile/static/media/card1.bf7ee340f17fed12e5f0.jpg",
     "static/media/Simplifymoney_event.jpeg": "/tradophile/static/media/Simplifymoney_event.5658225dda77c07f249f.jpeg",
     "static/media/orn5.jpg": "/tradophile/static/media/orn5.5fb9f817902df08858a8.jpg",
@@ -31,7 +32,6 @@
     "static/media/vaibhav.jpg": "/tradophile/static/media/vaibhav.9a5c662444bcd193e673.jpg",
     "static/media/btc4.jpeg": "/tradophile/static/media/btc4.92425b118cd594ca1e38.jpeg",
     "static/media/btc7.jpeg": "/tradophile/static/media/btc7.20f374697df0ebec7e70.jpeg",
-    "static/media/roshan.jpg": "/tradophile/static/media/roshan.80df512573ec5e455d5f.jpg",
     "static/media/sourav.jpg": "/tradophile/static/media/sourav.eef9642ce9567a0b9632.jpg",
     "static/media/ishank.jpg": "/tradophile/static/media/ishank.536d44df586f0e2a69bc.jpg",
     "static/media/btc5.jpeg": "/tradophile/static/media/btc5.567f90366a1d64ce1a27.jpeg",
@@ -49,11 +49,11 @@
     "static/media/ipulogo.png": "/tradophile/static/media/ipulogo.86970e97c381106b4882.png",
     "index.html": "/tradophile/index.html",
     "main.40f18741.css.map": "/tradophile/static/css/main.40f18741.css.map",
-    "main.05d5f6bb.js.map": "/tradophile/static/js/main.05d5f6bb.js.map",
+    "main.24a99d6b.js.map": "/tradophile/static/js/main.24a99d6b.js.map",
     "453.5ed8f7f3.chunk.js.map": "/tradophile/static/js/453.5ed8f7f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40f18741.css",
-    "static/js/main.05d5f6bb.js"
+    "static/js/main.24a99d6b.js"
   ]
 }
