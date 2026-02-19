@@ -19,9 +19,9 @@ function Team() {
           post: 'Chair',
           photo: vaibhav,
           social: {
-            instagram: 'https://www.instagram.com/vansh6803?igsh=MWE3YjVjZmY4anBq',
+            instagram: '',
             linkedin: 'https://www.linkedin.com/in/vaibhav-wason-159743261?utm_source=share_via&utm_content=profile&utm_medium=member_android',
-            x: 'https://x.com/VanshSethitwts',
+            x: '',
           },
         },
         {
@@ -29,19 +29,19 @@ function Team() {
           post: 'Vice Chair',
           photo: ishank,
           social: {
-            instagram: 'https://www.instagram.com/yashrajvaid7?igsh=ZGc4Y3pvcDdwYzZr',
-            linkedin: 'https://www.linkedin.com/in/yash-raj-vaid-291a47212',
-            x: 'https://x.com/YashRajVaid2?t=650Pwj82a3u8xfEIlPDm1A&s=09',
+            instagram: '',
+            linkedin: '',
+            x: '',
           },
         },
         {
-          name: 'Rachit',
+          name: 'Rachit Sanjeev Soni',
           post: 'General Secretary',
           photo: rachit,
           social: {
-            instagram: 'https://www.instagram.com/shashwat._.14/',
-            linkedin: 'https://www.linkedin.com/in/shashwat-tiwari-868b42204/',
-            x: 'https://x.com/ShashwatT51185',
+            instagram: 'https://www.instagram.com/rchit_2208?igsh=MW14MXMwMXFieWFkZw==',
+            linkedin: 'https://www.linkedin.com/in/rachit-sanjeev-soni-405994283',
+            x: 'https://x.com/twitty2208',
           },
         },
         {
@@ -57,17 +57,17 @@ function Team() {
           post: 'Treasurer',
           photo: mukul,
           social: {
-            instagram: "https://www.linkedin.com/in/kartikay-s-4b2aba25b/",
-            x: 'https://x.com/KartikAloneWolf',
+            instagram: '',
+            x: '',
           },
         },
         {
-          name: 'Abhinav',
+          name: 'Abhinav Singh',
           post: 'Media Head',
           photo: abhinav,
           social: {
-            instagram: "https://www.linkedin.com/in/kartikay-s-4b2aba25b/",
-            x: 'https://x.com/KartikAloneWolf',
+            instagram: 'https://www.instagram.com/im.abhinxv?igsh=YnJucjA1bHh5Y2t4',
+            linkedin: 'https://www.linkedin.com/in/abhinav-singh-0b5ba3381?utm_source=share_via&utm_content=profile&utm_medium=member_android',
           },
         },
       ];
