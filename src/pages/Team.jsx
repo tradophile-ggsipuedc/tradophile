@@ -4,7 +4,7 @@ import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 // IMAGES IMPORT
-import vaibhav from '../assets/members/vaibha.jpg';
+import vaibhav from '../assets/members/vaibhav.jpg';
 import ishank from '../assets/members/ishank.jpg';
 import rachit from '../assets/members/rachit.jpg';
 import roshan from '../assets/members/roshan.jpg';
