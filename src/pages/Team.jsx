@@ -4,10 +4,11 @@ import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 // IMAGES IMPORT
-import vaibhav from '../assets/members/vaibhav.jpg';
+import vaibhav from '../assets/members/vaibha.jpg';
 import ishank from '../assets/members/ishank.jpg';
-import shashwat from '../assets/members/shashwat.jpg';
+import rachit from '../assets/members/rachit.jpg';
 import roshan from '../assets/members/roshan.jpg';
+import abhinav from '../assets/members/abhinav.jpg';
 import mukul from '../assets/members/mukul.jpg';
 
 function Team() {
@@ -34,9 +35,9 @@ function Team() {
           },
         },
         {
-          name: 'Shashwat Tiwari',
+          name: 'Rachit',
           post: 'General Secretary',
-          photo: shashwat,
+          photo: rachit,
           social: {
             instagram: 'https://www.instagram.com/shashwat._.14/',
             linkedin: 'https://www.linkedin.com/in/shashwat-tiwari-868b42204/',
@@ -55,6 +56,15 @@ function Team() {
           name: 'Mukul Joshi',
           post: 'Treasurer',
           photo: mukul,
+          social: {
+            instagram: "https://www.linkedin.com/in/kartikay-s-4b2aba25b/",
+            x: 'https://x.com/KartikAloneWolf',
+          },
+        },
+        {
+          name: 'Abhinav',
+          post: 'Media Head',
+          photo: abhinav,
           social: {
             instagram: "https://www.linkedin.com/in/kartikay-s-4b2aba25b/",
             x: 'https://x.com/KartikAloneWolf',
