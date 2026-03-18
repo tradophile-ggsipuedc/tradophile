@@ -5,7 +5,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 // IMAGES IMPORT
 import vaibhav from '../assets/members/vaibhav.jpg';
-import ishank from '../assets/members/ishank.jpg';
+import ishank_rajput from '../assets/members/ishank_rajput.jpg';
 import rachit from '../assets/members/rachit.jpg';
 import roshan from '../assets/members/roshan.jpg';
 import abhinav from '../assets/members/abhinav.jpg';
@@ -27,7 +27,7 @@ function Team() {
         {
           name: 'Ishank Rajput',
           post: 'Vice Chair',
-          photo: ishank,
+          photo: ishank_rajput,
           social: {
             instagram: '',
             linkedin: '',
