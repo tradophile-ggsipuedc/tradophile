@@ -5,8 +5,8 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 // IMAGES IMPORT
 import vaibhav from '../assets/members/vaibhav.jpg';
-import ishank_rajput from '../assets/members/ishank_rajput.jpg';
-import rachit from '../assets/members/rachit.jpg';
+import ishank_rajput from '../assets/members/ishank_rajpt.jpg';
+import rachit from '../assets/members/racit.jpg';
 import roshan from '../assets/members/roshan.jpg';
 import abhinav from '../assets/members/abhinav.jpg';
 import mukul from '../assets/members/mukul.jpg';
@@ -27,7 +27,7 @@ function Team() {
         {
           name: 'Ishank Rajput',
           post: 'Vice Chair',
-          photo: ishank_rajput,
+          photo: ishank_rajpt,
           social: {
             instagram: '',
             linkedin: '',
@@ -37,7 +37,7 @@ function Team() {
         {
           name: 'Rachit Sanjeev Soni',
           post: 'General Secretary',
-          photo: rachit,
+          photo: racht,
           social: {
             instagram: 'https://www.instagram.com/rchit_2208?igsh=MW14MXMwMXFieWFkZw==',
             linkedin: 'https://www.linkedin.com/in/rachit-sanjeev-soni-405994283',
